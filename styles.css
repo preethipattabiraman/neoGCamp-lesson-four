@@ -1,0 +1,31 @@
+:root {
+    --primary-color: yellow;
+    --secondary-color: #006994;
+    --box-color: #DCDCDC;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+    background-color: var(--box-color);
+}
+
+p {
+    text-align: center;
+}
+
+#div-output {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    height: 10vh;
+    background-color: var(--box-color);
+}
